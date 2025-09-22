@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icona.png">
+    <title>Todo App</title>
+</head>
+<body>
+    <header class="header">
+        <div class="headerChild1">
+            <img class="image" src="assets/icona.png">
+            <p><b>TODO APP</b></p>
+        </div>
+        <div class="headerChild2">
+            <p>Chi siamo</p>
+            <p>Cosa facciamo</p>
+            <p>Contatti</p>
+            <img  class="image"src="assets/utente.png">
+        </div>
+    </header>
+    <main class="main">
+        <aside class="aside">
+            <p class="asideTitle"><b>Search</b></p>
+            <ul class="elencogenerale">
+                <li class="primoelenco">Contatti</li>
+                    <ul>
+                        <li><a href="">Today</a></li>
+                        <li><a href="">This week</a></li>
+                        <li class="secondoelenco"><a href="">This month</a></li>
+                    </ul>
+                <li class="primoelenco">Priority</li>
+                    <ul>
+                        <li><a href="">High</a></li>
+                        <li><a href="">Mid</a></li>
+                        <li><a href="">Low</a></li>
+                    </ul>
+                <li class="primoelenco">Label</li>
+                    <ul>
+                        <li><a href="">A</a></li>
+                        <li><a href="">B</a></li>
+                        <li><a href="">C</a></li>
+                    </ul>
+                
+            </ul>
+        </aside>
+        <section class="addtask">
+            <h1>Add task</h1>
+            <label>Date</label>
+            <input class="date" type="date">
+            <label>Title</label>
+            <input class="title" type="text">
+            <label>Description</label>
+            <input class="description" type="text">
+            <div class="buttonDiv">
+                <button class="button" type="submit">Add</button>
+            </div>
+        </section>
+        <section class="tasks">
+            <h1 class="centra">Tasks</h1>
+        </section>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

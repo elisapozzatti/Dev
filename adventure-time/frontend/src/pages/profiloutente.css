@@ -1,0 +1,28 @@
+.containerprofile{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    gap: 10px;
+    width: 50%;
+    padding: 25px;
+    margin: 10px 20px;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-radius: var(--radius-lg);
+}
+button:hover {
+    background: linear-gradient(135deg, #43A047, #5CB85C);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+  }
+  
+button:active {
+    transform: translateY(0);
+}
+.immagineprofilo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    background-color: chocolate;
+    height: 8vh;
+}
+.image{
+    width: 30px;
+    height: 30px;
+}
+.headerChild1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+    width: 60%;
+}
+.headerChild2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    width: 40%;
+}
+.main{
+    display: flex;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 20%;
+    height: 89vh;
+}
+.asideTitle{
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.elencogenerale{
+    margin-left: 20px;
+}
+.primoelenco{
+    padding-left: 40px;
+}
+.addtask{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 5px;
+    padding: 40px;
+    height: 78vh;
+    border-right: 2px solid lightgrey;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    width: 40px;
+    height: 20px;
+    background-color: chocolate;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid chocolate;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+    padding: 40px;
+    height: 78vh; 
+    overflow-y: auto; 
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+.cardDate{
+    margin-top: 20px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+    margin-bottom: 0;
+}
+.cardTitle{
+    margin-left: 20px;
+    overflow-wrap: break-word;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.cardDescription{
+    margin-left: 20px;
+    overflow-wrap: break-word;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.x{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: 5px solid chocolate;
+    color: white;
+}
+.centra{
+    display: flex;
+    justify-content: center;
+}

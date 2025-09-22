@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d2f4b7; 
+  color: #333;
+}
+
+.psicologi-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #353232;
+  margin-bottom: 2rem;
+}
+
+.psicologi-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.psicologo-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 600px;
+}
+
+.psicologo-card:hover {
+  transform: translateY(-10px);
+}
+
+.psicologo-card h3 {
+  font-size: 1.2rem;
+  color: #4B9F7D; 
+  margin-bottom: 1rem;
+}
+
+.psicologo-card p {
+  font-size: 0.95rem;
+  color: #535252;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #4B9F7D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4B9F7D; 
+}
+
+button.annulla {
+  background: #fa3a2c; 
+}
+
+button.annulla:hover {
+  background: #ff2515; 
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.modal h2 {
+  font-size: 1.5rem;
+  color: #156947;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #555;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #4B9F7D; 
+  outline: none;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-buttons button {
+ width: 45%;
+}

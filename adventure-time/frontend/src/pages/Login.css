@@ -1,0 +1,176 @@
+/* LoginForm.css */
+
+/* Contenitore principale - Stile coerente con post-creator */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: transparent;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Card della form - Stile unificato */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  animation: fadeIn 0.5s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Titolo con gradiente coerente */
+.login-title {
+  color: #1a1a1a;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  text-align: center;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gruppi di input - Stile unificato */
+.login-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Etichette */
+.login-label {
+  color: #4b5563;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+/* Input - Stile coerente con form precedente */
+.login-input {
+  padding: 0.875rem 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #1f2937;
+  transition: all 0.3s ease;
+  background-color: #f9fafb;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+  background-color: white;
+}
+
+/* Pulsante - Stile migliorato con gradiente */
+.login-button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #43A047, #5CB85C);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.login-button:active {
+  transform: translateY(0);
+}
+
+/* Messaggi di errore - Stile unificato */
+.login-error {
+  color: #e53e3e;
+  background-color: #fff5f5;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  border-left: 4px solid #e53e3e;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  animation: slideDown 0.3s ease-out;
+}
+
+.login-error-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Link - Stile coerente */
+.login-link {
+  display: block;
+  text-align: center;
+  color: #4CAF50;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.login-link:hover {
+  color: #388E3C;
+  text-decoration: underline;
+}
+
+/* Animazioni - Coerenti con lo stile precedente */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 1.75rem;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+  }
+  
+  .login-input {
+    padding: 0.75rem 1rem;
+  }
+}

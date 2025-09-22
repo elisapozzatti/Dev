@@ -1,0 +1,137 @@
+/* Stile generale per l'header */
+header {
+  background-color: #ffffff;
+  background-image: url("/New-logo.jpg" ) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 120px;
+  padding: 0 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per il titolo */
+.header-title {
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Stile per la navigazione */
+nav.iconright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto; /* Spinge il nav verso destra */
+}
+
+nav.iconright ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+nav.iconright ul li {
+  margin-right: 0; /* Rimuovi il margin-right */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 25px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+a.header-title{
+  color: black;
+  margin-left: 40px;
+}
+
+a.chatbot:hover {
+  background-color: #499966;
+  transform: translateY(-2px);
+}
+
+a.forum:hover {
+  background-color: #499966;
+  transform: translateY(-2px);
+}
+
+a.notizie:hover {
+  background-color: #499966;
+  transform: translateY(-2px);
+}
+
+/* Stile per il contenitore dei pulsanti */
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto; /* Mantiene i pulsanti a destra */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+/* Pulsante di accesso (Login) */
+.button-access {
+  background-color: transparent;
+  border: 2px solid #4ac465;
+  color: #4ac465;
+}
+
+.button-access:hover {
+  background-color: #c3ecc0 !important;  /* Verde più scuro per hover */
+  transform: translateY(-2px);
+}
+
+/* Pulsante di registrazione (Register) */
+.button-register {
+  background: linear-gradient(45deg, #A7E9FB, #53C9FF);  color: white;
+}
+
+.button-register:hover {
+  background-color: #0056b3;  /* Blu più scuro per hover */
+  transform: translateY(-2px);
+}
+
+.button-register > a,
+.button-access > a {
+  padding: 0;
+  background-color: transparent;
+}
+
+.immagineprofilo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.immagineprofilo:hover {
+  transform: translateY(-2px);
+}
