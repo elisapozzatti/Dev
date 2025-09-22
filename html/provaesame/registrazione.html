@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <link rel="icon" type="image/x-icon" href="icon.jpg"> 
+    <title>Registrazione</title>
+</head>
+<body>
+    <form>
+        <!-- nome -->
+        <label for="nome" class="testo">Inserisci il tuo nome: </label>
+        <input type="text" id="nome" name="nome" ><br>
+        <!-- cognome -->
+        <label for="cognome" class="testo">Inserisci il tuo cognome: </label>
+        <input type="text" id="cognome" name="cognome" ><br>
+        <!-- data di nascita -->
+        <label for="data" class="testo">Inserisci la tua data di nascita: </label>
+        <input type="date" id="data" name="data" required><br>
+        <!-- genere -->
+        <label for="genere" class="testo">Inserisci il tuo genere: </label><br>
+        <input type="radio" id="genere" class="tipi" name="genere" value="maschio" required><p class="tipi">maschio</p><br>
+        <input type="radio" id="genere" class="tipi" name="genere" value="femmina" required><p class="tipi">femmina</p><br>
+        <!-- film -->
+        <label for="film" class="testo">Quale film preferisci tra i seguenti: </label>
+        <select id="film" name="film" required>
+            <option class="tipi" value="spirit">spirit</option>
+            <option class="tipi" value="dragon trainer">dragon trainer</option>
+            <option class="tipi" value="biancaneve">biancavneve</option>
+            <option class="tipi" value="la bella e la bestia">la bella e la bestia</option>
+        </select><br>
+        <!-- hobby -->
+        <label for="hobby" class="testo">Seleziona i tuoi hobby: </label>
+        <label class="tipi"><input  type="checkbox">bici</label>
+        <label class="tipi"><input  type="checkbox">disegno</label>
+        <label class="tipi"><input  type="checkbox">lettura</label>
+        <label class="tipi"><input  type="checkbox">videogiochi</label><br>
+        <!-- invia -->
+        <button class="tipi" type="submit">invia</button>
+        <!-- resetta -->
+        <button class="tipi" type="reset">cancella</button>
+    </form>
+</body>
+</html>

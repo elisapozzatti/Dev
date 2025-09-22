@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modulo di registrazione</title>
+</head>
+<body>
+    <h1>Modulo di registrazione</h1>
+    <form action="/submit" method="post">
+        <!-- nome -->
+        <label for="nome" class="testo">Inserisci il tuo nome: </label>
+        <input type="text" id="nome" name="nome" required><br>
+        <!-- email -->
+        <label for="email" class="testo">Inserisci la tua email: </label>
+        <input type="email" id="email" name="email" required><br>
+        <!-- numero di telefono -->
+        <label for="numero" class="testo">Inserisci il tuo numero di telefono: </label>
+        <input type="number" id="numero" name="numero" required><br>
+        <!-- data di nascita -->
+        <label for="data" class="testo">Inserisci la tua data di nascita: </label>
+        <input type="date" id="data" name="data" required><br>
+        <!-- genere -->
+        <p class="testo">Inserisci il tuo genere: </p>
+        <label><input type="radio" name="genere" value="maschio" required>maschio</label><br>
+        <label><input type="radio" name="genere" value="femmina" required>femmina</label><br>
+        <label><input type="radio" name="genere" value="altro" required>altro</label><br><br>
+        <!-- password -->
+        <label for="password" class="testo">Inserisci la tua password: </label>
+        <input type="password" id="password" name="password" required><br>
+        <!-- conferma password -->
+        <label for="password" class="testo">Conferma la tua password: </label>
+        <input type="password" id="password" name="password" required><br><br>
+        <!-- descrizione personale -->
+        <label for="descrizione" class="testo">Fai una tua descrizione personale: </label><br>
+        <textarea id="descrizione" name="descrizione" rows="5" cols="30" required></textarea><br><br>
+        <!-- tipo di biglietto -->
+        <label for="biglietto">Scegli il tuo biglietto: </label>
+        <select id="biglietto" name="biglietto" required>
+            <option value="standard">standard</option>
+            <option value="premium">premium</option>
+            <option value="vip">vip</option>
+        </select><br><br>
+        <!-- accetta termini -->
+        <label><input type="checkbox" name="termini" required>accetto i termini e le condizioni</label><br><br>
+        <!-- pulsanti -->
+         <button type="submit">invia</button>
+         <button type="reset">cancella campi</button>        
+    </form>
+</body>
+</html>
