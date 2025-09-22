@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1rem;
+ 
+}
+
+/* Layout */
+
+footer {
+background-color: #90c097;
+color: white;
+padding: 2rem 0;
+}
+
+.footer-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+margin-bottom: 2rem;
+}
+
+footer h3 {
+font-size: 1.25rem;
+font-weight: 600;
+margin-bottom: 1rem;
+}
+
+footer ul {
+list-style: none;
+}
+
+footer ul li {
+margin-bottom: 0.5rem;
+}
+
+footer a {
+color: white;
+text-decoration: none;
+transition: color 0.2s;
+}
+
+footer a:hover {
+color: #93c5fd;
+}
+
+
+.social-icons {
+display: flex;
+gap: 0.625rem; 
+}
+
+.social-icons svg {
+font-size: 1.25rem;
+cursor: pointer; 
+}
+
+.social-icons svg:hover {
+color: #93c5fd;
+}
+
+.footer-bottom {
+display: flex;
+align-items: center; 
+justify-content: space-between; 
+padding-top: 1rem 2rem;
+font-size: 0.625rem;
+list-style: none;
+
+}
+
+.footer-left {
+display: flex;
+gap: 2rem; 
+flex: 1; 
+}
+
+.footer-right {
+white-space: nowrap; 
+}
+
+
+ 
+ @media (max-width: 768px) {
+  .card-grid,
+  .reviews-grid,
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  footer h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  footer a:hover {
+    color: #93c5fd;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    gap: 0.625rem; 
+  }
+  
+  .social-icons svg {
+    font-size: 1.25rem;
+    cursor: pointer; 
+  }
+  
+  .social-icons svg:hover {
+    color: #93c5fd;
+  }
+  
+
+  @media (max-width: 768px) {
+    .card-grid,
+    .reviews-grid,
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    footer h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    footer ul {
+      list-style: none;
+    }
+    
+    footer ul li {
+      margin-bottom: 0.5rem;
+    }
+    
+    footer a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    footer a:hover {
+      color: #93c5fd;
+    }
+    
+    
+    .social-icons {
+      display: flex;
+      gap: 0.625rem; 
+    }
+    
+    .social-icons svg {
+      font-size: 1.25rem;
+      cursor: pointer; 
+    }
+    
+    .social-icons svg:hover {
+      color: #93c5fd;
+    }
+  }
+  }
