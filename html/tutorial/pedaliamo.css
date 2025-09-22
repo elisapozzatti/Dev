@@ -1,0 +1,64 @@
+@font-face{
+    font-family: studyclash;
+    src: url("studyclash.woff") format("woff");
+}
+@font-face{
+    font-family: operius;
+    src: url("operius.woff") format("woff");
+}
+.html{
+    background-color: black;
+    height: 200%;
+}
+.contenitore{
+    height: 400px;
+    overflow: hidden;
+    position: fixed;
+}
+.titolo{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 90px;
+    font-size: 4rem;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    width: 80%;
+    font-family: studyclash;
+    justify-self: center;
+}
+.importante{
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    display: inline-block;
+    margin: 4%;
+    text-align: center;
+    flex: 1;
+    font-family: studyclash;
+    border-radius: 50%;
+}
+.imgimp{
+    width: 70%;
+    height: 50%;
+    padding: 4%;
+    border-radius: 50%;
+}
+.scrittaimp{
+    font-size: 1.5rem;
+    padding: 1%;
+}
+.container{
+    display: flex;
+}
+.finale{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    width: 30%;
+    font-family: oswald;
+    border-radius: 40%;
+    justify-self: center;
+}

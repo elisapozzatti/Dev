@@ -1,0 +1,33 @@
+.containerCards{
+    background-color: grey;
+    width: 50%;
+    display: flex;
+}
+.container{
+    background-color: azure;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.containerXDate{
+    display: flex;
+    background-color: azure;
+    align-items: center;
+}
+.cardDate{
+    color: blue;
+    margin-right: auto;
+}
+.divX{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
