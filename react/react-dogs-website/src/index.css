@@ -1,0 +1,165 @@
+header{
+  display: flex;
+  background-color: blue;
+  height: 10vh;
+  gap: 20px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.generalcontainer{
+  max-width: 1000px;
+  padding: 0 1rem; 
+  margin: 0 auto;
+}
+.voci{
+  display: flex;
+  color: white;
+  font-family: Arial;
+}
+.margine{
+  margin-right: auto;
+}
+.img{
+  width: 50px;
+  height: 50px;
+}
+.main{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  background-color: rgb(4, 4, 90);
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  height: 25vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  border-bottom: 0.5px solid grey;
+}
+.section{
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: Arial;
+  font-size: x-small;
+}
+.title{
+  margin-bottom: 10px;
+}
+.info{
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+.sectionlow{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: xx-small;
+  font-family: Arial;
+}
+.news{
+  width: 80%;
+  margin-bottom: 6px;
+}
+.email{
+  border-radius: 3px;
+  border: white;
+  font-size: x-small;
+  height: 20px;
+  margin-bottom: 6px;
+  width: 80%;
+}
+.button{
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  border: blue;
+  font-size: x-small;
+  height: 25px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.recensionicontainer{
+  display: flex;
+  flex-direction: column;
+}
+.recensioni{
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+}
+.containerdiv{
+  display: flex;
+  justify-content: center;
+}
+.divrecensioni{
+  display: flex;
+  box-shadow: 0px 2px 2px 0px lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+  margin: 10px;
+}
+.profilo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.stelle{
+  width: 10px;
+  height: 10px;
+  margin-top: 0px;
+}
+.orizontal{
+  display: flex;
+}
+.vertical{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.containerbreed{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.containercard{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 0px lightgrey;
+  overflow: hidden;
+}
+.cane{
+  max-height: 200px;
+  width: 100%;
+}
+.breed{
+  margin: 10px;
+}
+.descrizione{
+  margin: 10px;
+}
