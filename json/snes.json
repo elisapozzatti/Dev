@@ -1,0 +1,27 @@
+{
+    "persone": [
+        {
+            "nome": "elisa",
+            "cognome": "pozzatti",
+            "eta": 20,
+            "capelli": "ricci",
+            "indirizzo": {
+                "citta": "verona",
+                "cap": 37026,
+                "via": "roma"
+            }
+        },
+        {
+            "nome": "luna",
+            "cognome": "gasparini",
+            "eta": 20,
+            "capelli": "ricci",
+            "indirizzo":{
+                "citta": "verona",
+                "cap": 37026,
+                "via": "roma"
+            }
+        }
+    ]
+}
+
